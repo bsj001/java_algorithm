@@ -33,13 +33,19 @@ public class BinaryTreeDemo {
 //        System.out.println("后序遍历");
 //        binaryTree.postOrder();//2,5,4,3,1
 
-        //测试
-        HeroNode res = binaryTree.postOrderSearch(5);
-        if(res != null){
-            System.out.printf("找到了,信息为no = %d,name = %s]\n",res.getNo(),res.getName());
-        }else {
-            System.out.println("没找到");
-        }
+        //测试查找
+//        HeroNode res = binaryTree.postOrderSearch(5);
+//        if(res != null){
+//            System.out.printf("找到了,信息为no = %d,name = %s]\n",res.getNo(),res.getName());
+//        }else {
+//            System.out.println("没找到");
+//        }
+        //测试删除节点
+        System.out.println("删除前的原树：");
+        binaryTree.preOrder();
+        binaryTree.delNo(30);
+        System.out.println("删除节点后的树：");
+        binaryTree.preOrder();
     }
 }
 
@@ -97,6 +103,19 @@ class BinaryTree{
             return root.postOrderSearch(no);
         }else {
             return null;
+        }
+    }
+
+    //删除节点
+    public void delNo(int no){
+        if(root != null){
+            if(root.getNo() == no){
+                root = null;
+            }else {
+                root.delNode(no);
+            }
+        }else{
+            System.out.println("空树，不需要删除");
         }
     }
 
@@ -274,5 +293,24 @@ class HeroNode{
         }
 
         return resNode;
+    }
+
+    //删除节点
+    public void delNode(int no){
+        if(this.left != null && this.left.no == no){
+            this.left = null;
+            return;
+        }
+        if(this.right != null && this.right.no == no){
+            this.right = null;
+            return;
+        }
+        if(this.left != null){
+            this.left.delNode(no);
+        }
+        if(this.right != null){
+            this.right.delNode(no);
+        }
+        return;
     }
 }
