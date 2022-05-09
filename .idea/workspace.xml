@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44730e50-67a2-48a3-b863-1aa74d61ef10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/main/java/com/bsj/tree/BinaryTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/main/java/com/bsj/tree/BinaryTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/src/main/java/com/bsj/tree/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/main/java/com/bsj/tree/ArrayBinaryTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/main/java/com/bsj/tree/ArrayBinaryTreeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/test/java/com/bsj/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/target/test-classes/com/bsj/AppTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,18 +58,22 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.bsj" />
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\MyFile\myCode\java_algorithm\DataStructures\src\main\java\com\bsj\linkedList" />
       <recent name="C:\MyFile\myCode\java_algorithm\DataStructures\src\main\java\com\bsj\queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeDemo">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bsj.search.BinarySearch" />
+  <component name="RunManager" selected="Application.HorseChessBoard">
+    <configuration name="DijkstraAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bsj.dijkstra.DijkstraAlgorithm" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bsj.search.*" />
+          <option name="PATTERN" value="com.bsj.dijkstra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bsj.tree.BinaryTreeDemo" />
+    <configuration name="FloydAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bsj.floyd.FloydAlgorithm" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bsj.tree.*" />
+          <option name="PATTERN" value="com.bsj.floyd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bsj.search.FibonacciSearch" />
+    <configuration name="HorseChessBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bsj.horse.HorseChessBoard" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bsj.search.*" />
+          <option name="PATTERN" value="com.bsj.horse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashTabDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bsj.hashTab.HashTabDemo" />
+    <configuration name="KrusKalAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bsj.kruskal.KrusKalAlgorithm" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bsj.hashTab.*" />
+          <option name="PATTERN" value="com.bsj.kruskal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertValueSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bsj.search.InsertValueSearch" />
+    <configuration name="PrimAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bsj.prim.PrimAlgorithm" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bsj.search.*" />
+          <option name="PATTERN" value="com.bsj.prim.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinaryTreeDemo" />
-        <item itemvalue="Application.HashTabDemo" />
-        <item itemvalue="Application.FibonacciSearch" />
-        <item itemvalue="Application.InsertValueSearch" />
-        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.HorseChessBoard" />
+        <item itemvalue="Application.FloydAlgorithm" />
+        <item itemvalue="Application.DijkstraAlgorithm" />
+        <item itemvalue="Application.KrusKalAlgorithm" />
+        <item itemvalue="Application.PrimAlgorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -167,62 +175,134 @@
       <workItem from="1648650622517" duration="4240000" />
       <workItem from="1648737505897" duration="3404000" />
       <workItem from="1648910640683" duration="2264000" />
-      <workItem from="1649013163009" duration="1410000" />
+      <workItem from="1649013163009" duration="2874000" />
+      <workItem from="1649040374239" duration="7096000" />
+      <workItem from="1649157914506" duration="1994000" />
+      <workItem from="1649340467410" duration="5310000" />
+      <workItem from="1649684389224" duration="3102000" />
+      <workItem from="1649782240776" duration="2898000" />
+      <workItem from="1649839716897" duration="2361000" />
+      <workItem from="1649919196281" duration="11026000" />
+      <workItem from="1649985515460" duration="13425000" />
+      <workItem from="1650075879757" duration="5284000" />
+      <workItem from="1650106803195" duration="1887000" />
+      <workItem from="1650352036030" duration="3400000" />
+      <workItem from="1650424525907" duration="10122000" />
+      <workItem from="1650506152133" duration="16047000" />
+      <workItem from="1650557819124" duration="6232000" />
+      <workItem from="1650619673114" duration="9000" />
     </task>
+    <task id="LOCAL-00001" summary="顺序二叉树">
+      <created>1649016557484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649016557484</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="顺序二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="顺序二叉树" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Notifications" timestamp="1647270156636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1647270156636" />
-    <state x="713" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1648739054856">
+    <state x="752" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1650515342980">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="713" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1650003716790" />
+    <state x="752" y="230" key="#com.intellij.ide.util.MemberChooser/62.0.1858.1080@62.0.1858.1080" timestamp="1650515342980" />
+    <state x="577" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1650003277317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="713" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1648739054856" />
+    <state x="577" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1650003277317" />
+    <state x="739" y="378" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1649043259460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="378" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1649043259460" />
+    <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1650003278567">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1650003278567" />
+    <state x="715" y="222" key="#xdebugger.evaluate" timestamp="1650426784816">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1650426784816" />
+    <state x="540" y="110" key="CommitChangelistDialog2" timestamp="1649016557019">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1649016557019" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1647137491832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1647137491832" />
-    <state width="1877" height="382" key="GridCell.Tab.0.bottom" timestamp="1649014936178">
+    <state width="1815" height="276" key="GridCell.Tab.0.bottom" timestamp="1650564366242">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1877" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1650432584936" />
+    <state width="1815" height="276" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1650564366242" />
+    <state width="1815" height="276" key="GridCell.Tab.0.center" timestamp="1650564366242">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1877" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1650432584936" />
+    <state width="1815" height="276" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1650564366242" />
+    <state width="1815" height="276" key="GridCell.Tab.0.left" timestamp="1650564366242">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1877" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1650432584936" />
+    <state width="1815" height="276" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1650564366242" />
+    <state width="1815" height="276" key="GridCell.Tab.0.right" timestamp="1650564366242">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1650432584936" />
+    <state width="1815" height="276" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1650564366242" />
+    <state width="1815" height="314" key="GridCell.Tab.1.bottom" timestamp="1650460335372">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1877" height="238" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1650429742056" />
+    <state width="1815" height="314" key="GridCell.Tab.1.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1650460335372" />
+    <state width="1815" height="314" key="GridCell.Tab.1.center" timestamp="1650460335372">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1877" height="238" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1650429742055" />
+    <state width="1815" height="314" key="GridCell.Tab.1.center/62.0.1858.1080@62.0.1858.1080" timestamp="1650460335372" />
+    <state width="1815" height="314" key="GridCell.Tab.1.left" timestamp="1650460335372">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1877" height="238" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1650429742055" />
+    <state width="1815" height="314" key="GridCell.Tab.1.left/62.0.1858.1080@62.0.1858.1080" timestamp="1650460335372" />
+    <state width="1815" height="314" key="GridCell.Tab.1.right" timestamp="1650460335372">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1877" height="238" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1650429742056" />
+    <state width="1815" height="314" key="GridCell.Tab.1.right/62.0.1858.1080@62.0.1858.1080" timestamp="1650460335372" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1649939935940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="382" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1649014936178" />
-    <state width="1877" height="382" key="GridCell.Tab.0.center" timestamp="1649014936178">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="382" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1649014936178" />
-    <state width="1877" height="382" key="GridCell.Tab.0.left" timestamp="1649014936177">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="382" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1649014936177" />
-    <state width="1877" height="382" key="GridCell.Tab.0.right" timestamp="1649014936178">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="382" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1649014936178" />
-    <state width="1877" height="337" key="GridCell.Tab.1.bottom" timestamp="1648745027635">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1648745027635" />
-    <state width="1877" height="337" key="GridCell.Tab.1.center" timestamp="1648745027634">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1648745027634" />
-    <state width="1877" height="337" key="GridCell.Tab.1.left" timestamp="1648745027634">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1648745027634" />
-    <state width="1877" height="337" key="GridCell.Tab.1.right" timestamp="1648745027635">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1648745027635" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1649939935940" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1647818385545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1647818385545" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1650525731946">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/62.0.1858.1080@62.0.1858.1080" timestamp="1650525731946" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1649940291108">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1649940291108" />
+    <state x="511" y="236" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1650440901194">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="511" y="236" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/62.0.1858.1080@62.0.1858.1080" timestamp="1650440901194" />
     <state x="335" y="129" key="new project wizard" timestamp="1647058369473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -235,9 +315,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1647169658981" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1649014601322">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="665" y="234" width="672" height="705" key="search.everywhere.popup" timestamp="1650562009784">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1649014601322" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1649987034965" />
+    <state x="665" y="234" width="672" height="705" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1650562009784" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="areas" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
